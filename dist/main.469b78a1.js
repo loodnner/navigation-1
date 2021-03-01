@@ -122,17 +122,9 @@ var $siteList = $(".siteList");
 var x = localStorage.getItem("x");
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: "X",
-  logoType: "text",
-  url: "https://xiedaimala.com"
-}, {
   logo: "B",
   logoType: "text",
   url: "https://bilibili.com"
-}, {
-  logo: "Q",
-  logoType: "text",
-  url: "https://qiyi.com"
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -185,4 +177,4 @@ $(document).on("keypress", function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.a57a4e6a.js.map
+//# sourceMappingURL=main.469b78a1.js.map

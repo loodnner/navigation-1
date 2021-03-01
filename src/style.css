@@ -9,9 +9,17 @@ a,a:link,a:visited,a:hover,a:active{
     text-decoration: none;
     color:inherit;
 }
+html,body{
+    height:100%;
+}
 
 body{
     background-color: #eee;
+    background-image: url("images/rick.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border: 1px solid black;
 }
 @media(min-width:500px){
     .searchPart{
@@ -47,8 +55,7 @@ body{
     white-space:nowrap;
     padding:0 27px;
     border:none;
-    background: #3DA1D9;
-    border: 1px solid #DDDDDD;
+    background: #3DA1D9;    
     border-radius:4px;
     height: 40px;
     color:white;

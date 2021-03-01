@@ -3,19 +3,9 @@ const x = localStorage.getItem("x");
 const xObject = JSON.parse(x);
 const hashMap = xObject || [
   {
-    logo: "X",
-    logoType: "text",
-    url: "https://xiedaimala.com",
-  },
-  {
     logo: "B",
     logoType: "text",
     url: "https://bilibili.com",
-  },
-  {
-    logo: "Q",
-    logoType: "text",
-    url: "https://qiyi.com",
   },
 ];
 
