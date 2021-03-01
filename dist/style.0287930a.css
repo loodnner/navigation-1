@@ -1,0 +1,149 @@
+/* css reset */
+*{box-sizing:border-box;}
+*{margin:0;padding:0;}
+img {max-width: 100%;}
+ul,ol{
+    list-style: none;
+}
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color:inherit;
+}
+
+body{
+    background-color: #eee;
+}
+@media(min-width:500px){
+    .searchPart{
+        margin: 60px 0 100px;
+    }
+}
+
+.searchForm{
+    margin:10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    /* 左右空隙相等就是居中 */
+}
+@media(min-width:500px){
+    .searchForm{
+        max-width: 400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.searchForm > input{
+    width: 100%;
+    margin-right: 10px;
+    padding:0 10px;
+    border:none;
+    border:1px solid #ddd;
+    border-radius:4px;
+    height: 40px;
+
+}
+.searchForm > button{
+    white-space:nowrap;
+    padding:0 27px;
+    border:none;
+    background: #3DA1D9;
+    border: 1px solid #DDDDDD;
+    border-radius:4px;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+}
+.sitePart{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.siteList{
+display: flex;
+flex-wrap: wrap;
+margin: 20px 20px;
+justify-content: space-between;
+}
+
+@media(min-width:500px){
+    .siteList{
+        margin-left: 0;
+        margin-right: -25px;
+        justify-content: flex-start;
+    }
+}
+.site{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border:1px solid #DDD;
+    background-color: white;
+    border-radius:4px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+@media(min-width:500px){
+    .site{
+        margin-right: 25px;
+    }
+
+}
+.logo{
+width:160px;
+height:64px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 64px;
+}
+
+.link{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.close{
+    position:absolute;
+    right:8px;
+    top:4px;
+    display: none;
+    cursor:default;
+}
+@media(min-width:500px){
+.site:hover > .close{
+   display: block;
+}}
+
+.siteList .addSite{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid #DDD;
+    background-color: white;
+    border-radius:4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.addLogo .icon{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addSite .newLink{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/*# sourceMappingURL=style.0287930a.css.map */
