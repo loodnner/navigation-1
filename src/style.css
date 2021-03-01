@@ -18,9 +18,7 @@ body{
     background-image: url("images/rick.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-    border: 1px solid black;
-}
+    overflow: hidden;}
 @media(min-width:500px){
     .searchPart{
         margin: 60px 0 100px;
